@@ -1,9 +1,11 @@
 import java.util.ArrayList;
 import java.io.*;
+import java.util.logging.Level;
+
 public class FileManager {
 //    String FILE_PATH = "./";
     String FILE_PATH = "./Seminar05/Phonebook/src/";
-    String FILE_NAME_EXPORT = "export.csv";
+    String FILE_NAME_EXPORT = "export.txt";
     String FILE_PATH_FULL = FILE_PATH+FILE_NAME_EXPORT;
     public void ExportFile(ArrayList<Phonebook> pb){
 //        try(FileWriter writer = new FileWriter("notes3.txt", false)){
